@@ -146,7 +146,7 @@
 .hoverflag1::after{
     content: "";
     position: relative;
-    left:-19px;
+    left:-18px;
     top:19px;
     width: 0; 
     height: 0; 
@@ -159,7 +159,7 @@
 .hoverflag2::after{
     content: "";
     position: relative;
-    left:-19px;
+    left:-18px;
     top:19px;
     width: 0; 
     height: 0; 
@@ -171,7 +171,7 @@
 .hoverflag3::after{
     content: "";
     position: relative;
-    left:-19px;
+    left:-18px;
     top:19px;
     width: 0; 
     height: 0; 
