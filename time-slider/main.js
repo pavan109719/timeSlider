@@ -38,7 +38,7 @@ function setselectWSValue(){
         let _this = scaleWS;
         min=parseInt(_this.min);
         max=parseInt(_this.max);
-        let percent = ((_this.value-min)/(max-min))*100;
+          let percent = ((_this.value-min)/(max-min))*100;
         selectWS.style.left = percent+'%';
         range1.style.left = percent-2+'%';
 
