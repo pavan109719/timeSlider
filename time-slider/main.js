@@ -38,8 +38,6 @@ function setselectWSValue(){
         let _this = scaleWS;
         min=parseInt(_this.min);
         max=parseInt(_this.max);
-        // _this.value = Math.min(parseInt(_this.value),parseInt(selectWS.value)-1);
-
         let percent = ((_this.value-min)/(max-min))*100;
         selectWS.style.left = percent+'%';
         range1.style.left = percent-2+'%';
@@ -57,8 +55,6 @@ function setselectWEValue(){
         let _this = scaleWE;
         min=parseInt(_this.min);
         max=parseInt(_this.max);
-        // _this.value = Math.min(parseInt(_this.value),parseInt(selectWE.value)-1);
-
         let percent = ((_this.value-min)/(max-min))*100;
         selectWE.style.left = percent+'%';
         range1.style.right = ((100-Math.round(percent))-2)+'%';
@@ -75,8 +71,6 @@ function setselectBSValue(){
         let _this = scaleBS;
         min=parseInt(_this.min);
         max=parseInt(_this.max);
-        // _this.value = Math.min(parseInt(_this.value),parseInt(selectBS.value)-1);
-
         let percent = ((_this.value-min)/(max-min))*100;
         selectBS.style.left = percent+'%';
         range2.style.left = percent-2+'%';
@@ -92,8 +86,6 @@ function setselectBEValue(){
         let _this = scaleBE;
         min=parseInt(_this.min);
         max=parseInt(_this.max);
-        // _this.value = Math.min(parseInt(_this.value),parseInt(selectBE.value)-1);
-
         let percent = ((_this.value-min)/(max-min))*100;
         selectBE.style.left = percent+'%';
         range2.style.right = ((100-Math.round(percent))-2)+'%';
@@ -109,8 +101,6 @@ function setselectOSValue(){
         let _this = scaleOS;
         min=parseInt(_this.min);
         max=parseInt(_this.max);
-        // _this.value = Math.min(parseInt(_this.value),parseInt(selectOS.value)-1);
-
         let percent = ((_this.value-min)/(max-min))*100;
         selectOS.style.left = percent+'%';
         range3.style.left = percent-2+'%';
@@ -126,8 +116,6 @@ function setselectOEValue(){
         let _this = scaleOE;
         min=parseInt(_this.min);
         max=parseInt(_this.max);
-        // _this.value = Math.min(parseInt(_this.value),parseInt(selectOE.value)-1);
-
         let percent = ((_this.value-min)/(max-min))*100;
         selectOE.style.left = percent+'%';
         let timeFlag = Math.round((percent*1439)/100); 
